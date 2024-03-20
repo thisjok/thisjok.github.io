@@ -1,18 +1,2 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>XYU</title><link>https://github.com/thisjok</link><description>Do not go gentle into that good night</description><copyright>XYU</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/22339370?v=4</url><title>avatar</title><link>https://github.com/thisjok</link></image><lastBuildDate>Sat, 20 Jan 2024 07:29:53 +0000</lastBuildDate><managingEditor>XYU</managingEditor><pubDate>Sat, 20 Jan 2024 07:29:53 +0000</pubDate><ttl>60</ttl><webMaster>XYU</webMaster><item><title>Git如何查看本地分支的父分支</title><link>https://github.com/thisjok/post/Git-ru-he-cha-kan-ben-di-fen-zhi-de-fu-fen-zhi.html</link><description>1. 使用命令(其中dev1-r350为本地创建的分支)&#13;
-&#13;
-&gt;  git reflog show  --date=local --all | grep dev1-r350&#13;
-&#13;
-2. 命令输出&#13;
-~~~&#13;
-c470a67 HEAD@{Fri Aug 25 10:52:19 2023}: checkout: moving from release_r3.5-xyu to dev1-r350&#13;
-9e0884f refs/remotes/origin/dev1-r350@{Fri Aug 25 10:24:12 2023}: fetch: fast-forward&#13;
-7bd1877 HEAD@{Thu Aug 24 21:04:01 2023}: checkout: moving from dev1-r350 to origin/release_r3.5&#13;
-c470a67 refs/heads/dev1-r350@{Thu Aug 24 17:56:06 2023}: branch: Created from HEAD&#13;
-c470a67 HEAD@{Thu Aug 24 17:56:06 2023}: checkout: moving from c470a67eaba685adc4adaa9ad10d3dfb05fe2f5b to dev1-r350&#13;
-c470a67 HEAD@{Thu Aug 24 17:44:53 2023}: checkout: moving from release_r3.5 to origin/dev1-r350&#13;
-c470a67 refs/remotes/origin/dev1-r350@{Tue Aug 22 17:12:28 2023}: fetch: fast-forward&#13;
-~~~&#13;
-&#13;
-3. 输出数据分析&#13;
-&gt; 从倒数第2行及倒数第4行的reflog可以推断出：dev1-r350创建自origin/dev1-r350分支的commit ID为c470a67的节点；。</description><guid isPermaLink="true">https://github.com/thisjok/post/Git-ru-he-cha-kan-ben-di-fen-zhi-de-fu-fen-zhi.html</guid><pubDate>Sat, 20 Jan 2024 07:29:31 +0000</pubDate></item><item><title>Four Ways to Resolve Team Conflicts</title><link>https://github.com/thisjok/post/Four%20Ways%20to%20Resolve%20Team%20Conflicts.html</link><description>团队成员之间，经常会因为不同意见发生分歧。</description><guid isPermaLink="true">https://github.com/thisjok/post/Four%20Ways%20to%20Resolve%20Team%20Conflicts.html</guid><pubDate>Mon, 08 Jan 2024 03:14:04 +0000</pubDate></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>XYU</title><link>https://github.com/thisjok</link><description>Do not go gentle into that good night</description><copyright>XYU</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/22339370?v=4</url><title>avatar</title><link>https://github.com/thisjok</link></image><lastBuildDate>Wed, 20 Mar 2024 13:16:12 +0000</lastBuildDate><managingEditor>XYU</managingEditor><ttl>60</ttl><webMaster>XYU</webMaster><item><title>Four Ways to Resolve Team Conflicts</title><link>https://github.com/thisjok/post/Four%20Ways%20to%20Resolve%20Team%20Conflicts.html</link><description>团队成员之间，经常会因为不同意见发生分歧。</description><guid isPermaLink="true">https://github.com/thisjok/post/Four%20Ways%20to%20Resolve%20Team%20Conflicts.html</guid><pubDate>Mon, 08 Jan 2024 03:14:04 +0000</pubDate></item></channel></rss>
