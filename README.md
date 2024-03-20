@@ -1,3 +1,3 @@
 # XYU 
-## link: https://github.com/thisjok 
+link: https://thisjok.github.io/
 
